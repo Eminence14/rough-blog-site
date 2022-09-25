@@ -1,0 +1,77 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 0 20px;
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
+}
+.card {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+  flex-basis: 400px;
+}
+a {
+  color: crimson;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+}
+a #home {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 1px 12px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+  backdrop-filter: blur(2px);
+}
+a:hover {
+  text-decoration: underline;
+}
+.title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.body {
+  line-height: 1.5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.id {
+  padding: 5px 0;
+  background-color: #dc143c;
+  width: 30px;
+  text-align: center;
+  margin-left: auto;
+  border-radius: 30px;
+  color: white;
+}
+
+.back-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 12px 1px 0px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+  backdrop-filter: blur(2px);
+}
